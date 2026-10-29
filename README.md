@@ -171,7 +171,7 @@ Wait for the required Argo CD components to become ready.
 Run the following command in a terminal:
 
 ```bash
-kubectl port-forward svc/argocd-server -n argocd 8080:443
+kubectl port-forward svc/argocd-server -n argocd 8082:443
 ```
 
 Keep this terminal open.
@@ -179,7 +179,7 @@ Keep this terminal open.
 Open the following URL in your browser:
 
 ```text
-https://localhost:8080
+https://localhost:8082
 ```
 
 ### Get the initial admin password
